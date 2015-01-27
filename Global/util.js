@@ -6,10 +6,6 @@ function sayhi(area) {
 
     alert('Hi: ' + area);
 
-
-
-
-
 }
 
 

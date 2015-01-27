@@ -5,11 +5,9 @@
 myApp.controller('mainController', function ($scope) {
 
 
-    $scope.hi = function (area) {
-
-        sayhi(area);
-
-    }
+    $scope.area1 = function () { calledFromArea1(); }
+    $scope.area2 = function () { calledFromArea2(); }
+    $scope.area3 = function () { calledFromArea3(); }
 
 
 });

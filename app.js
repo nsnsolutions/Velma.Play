@@ -29,6 +29,10 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'Area3/area3.htm'
         })
 
+        .state('area4', {
+            url: '/area4',
+            templateUrl: 'Area4/area4.htm'
+        })
 
 });
 

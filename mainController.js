@@ -11,5 +11,11 @@ myApp.controller('mainController', function ($scope) {
 
     }
 
+    $scope.area4 = function () {
+
+        calledFromArea4();
+
+    }
+
 
 });

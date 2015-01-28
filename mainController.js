@@ -40,7 +40,6 @@ myApp.controller('mainController', ['$scope', '$timeout', '$mdBottomSheet', '$md
         );
     };
 
-
 }]);
 
 myApp.controller('GridBottomSheetCtrl', function($scope, $mdBottomSheet) {

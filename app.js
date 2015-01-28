@@ -2,7 +2,7 @@
  * Created by dhcarter on 1/26/2015.
  */
 
-var myApp = angular.module('myApp', ['ui.router']);
+var myApp = angular.module('myApp', ['ui.router', 'ngMaterial']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -32,6 +32,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('area4', {
             url: '/area4',
             templateUrl: 'Area4/area4.htm'
+        })
+
+        .state('material', {
+            url: '/Area-Material',
+            templateUrl: 'Area-Material/material.htm'
         })
 
 });

@@ -39,6 +39,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'Area-Material/material.htm'
         })
 
+        .state('sprint301', {
+            url: '/Sprint301',
+            templateUrl: 'Sprint301/Sprint301.htm'
+        })
+
 });
 
 

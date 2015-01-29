@@ -14,35 +14,16 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'home.htm'
         })
 
-        .state('area1', {
-            url: '/area1',
-            templateUrl: 'Area1/area1.htm'
+        .state('Buttons', {
+            url: '/Buttons',
+            templateUrl: 'Buttons/Buttons.htm'
         })
 
-        .state('area2', {
-            url: '/area2',
-            templateUrl: 'Area2/area2.htm'
+        .state('MaterialDesign', {
+            url: '/MaterialDesign',
+            templateUrl: 'MaterialDesign/material.htm'
         })
 
-        .state('area3', {
-            url: '/area3',
-            templateUrl: 'Area3/area3.htm'
-        })
-
-        .state('area4', {
-            url: '/area4',
-            templateUrl: 'Area4/area4.htm'
-        })
-
-        .state('material', {
-            url: '/Area-Material',
-            templateUrl: 'Area-Material/material.htm'
-        })
-
-        .state('sprint301', {
-            url: '/Sprint301',
-            templateUrl: 'Sprint301/Sprint301.htm'
-        })
 
 });
 

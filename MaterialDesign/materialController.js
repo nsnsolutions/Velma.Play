@@ -7,7 +7,7 @@ myApp.controller('materialController', ['$scope', '$timeout', '$mdBottomSheet', 
 
         $scope.alert = '';
         $mdBottomSheet.show({
-            templateUrl: 'Area-Material/bottomTemplate.html',
+            templateUrl: 'MaterialDesign/bottomTemplate.html',
             controller: 'GridBottomSheetCtrl',
             targetEvent: $event
         }).then(function(clickedItem) {

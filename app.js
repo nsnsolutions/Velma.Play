@@ -29,6 +29,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'DaveFeature/DaveFeature.html'
         })
 
+        .state('GregFeature1', {
+            url: '/GregFeature1',
+            templateUrl: 'GregFeature1/GregFeature1.html'
+        })
+
 
 });
 

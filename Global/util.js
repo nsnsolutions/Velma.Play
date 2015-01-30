@@ -3,6 +3,8 @@
  */
 
 function calledFromButtons() { alert('Hi Buttons') }
+function Feature2() { alert('Hi Feature2') }
+
 
 
 

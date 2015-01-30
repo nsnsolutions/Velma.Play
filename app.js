@@ -39,6 +39,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'GregFeature2/GregFeature2.html'
         })
 
+        .state('GregFeature3', {
+            url: '/GregFeature3',
+            templateUrl: 'GregFeature3/GregFeature3.html'
+        })
+
         .state('BigFeature2', {
             url: '/BigFeature2',
             templateUrl: 'BigFeature2/BigFeature2.html'

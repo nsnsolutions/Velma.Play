@@ -15,6 +15,8 @@ myApp.controller('materialController', ['$scope', '$timeout', '$mdBottomSheet', 
         });
     };
 
+    //
+
     $scope.showAlert = function(ev) {
         $mdDialog.show(
             $mdDialog.alert()

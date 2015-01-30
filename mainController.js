@@ -6,6 +6,7 @@
 myApp.controller('mainController', ['$scope', '$timeout',  function ($scope, $timeout) {
 
     $scope.Buttons = function () { calledFromButtons(); }
+    $scope.Feature2 = function () { Feature2(); }
 
 }]);
 

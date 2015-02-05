@@ -48,7 +48,7 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             url: '/BigFeature2',
             templateUrl: 'BigFeature2/BigFeature2.html'
         })
-        .state('Monti1', {
+        .state('monti1', {
             url: '/monti1.html',
             templateUrl: 'Monti1/monti1.html'
         })
